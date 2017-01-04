@@ -9,10 +9,41 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var timer = Timer()
 
-    @IBAction func cameraButton(_ sender: UIBarButtonItem) {
-        print("Camera pressed")
+    @IBAction func playTimer(_ sender: UIBarButtonItem) {
+        
+        
+        
     }
+
+    
+    @IBAction func pauseTimer(_ sender: UIBarButtonItem) {
+        
+        
+        
+    }
+    
+    @IBAction func resetTimer(_ sender: UIBarButtonItem) {
+        
+    
+        
+    }
+    
+    @IBAction func plus10Timer(_ sender: UIBarButtonItem) {
+        
+        
+        
+    }
+    
+    
+    @IBAction func minus10Timer(_ sender: UIBarButtonItem) {
+        
+        
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -25,4 +56,3 @@ class ViewController: UIViewController {
 
 
 }
-
