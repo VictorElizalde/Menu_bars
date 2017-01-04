@@ -79,6 +79,9 @@
                             <constraint firstItem="QL1-Jy-74t" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xjV-7q-bS1"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="timerLabel" destination="QL1-Jy-74t" id="BVq-fr-Ocv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
